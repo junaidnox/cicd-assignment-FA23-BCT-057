@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cloud CI/CD Assignment 3 - FA23-BCT-057</title>
+</head>
+<body>
+    <h1 id="main-heading">Automated CI/CD Web Application</h1>
+    <p id="student-info">Muhammad Junaid | FA23-BCT-057</p>
+
+    <button id="action-btn" onclick="document.getElementById('btn-output').textContent = 'Button clicked successfully!'">Click Me</button>
+    <p id="btn-output"></p>
+
+    <form id="text-form" onsubmit="event.preventDefault(); document.getElementById('submitted-text').textContent = document.getElementById('user-input').value;">
+        <input type="text" id="user-input" placeholder="Enter text here" />
+        <button type="submit" id="submit-btn">Submit</button>
+    </form>
+    <p id="submitted-text"></p>
+</body>
+</html>
